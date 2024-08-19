@@ -1,0 +1,29 @@
+1. Implement static site generation (SSG): Create a page that uses static site generation for improved performance.
+
+
+2. Use incremental static regeneration (ISR): Implement ISR on a page to update static content at specified intervals.
+
+
+3. Experiment with streaming: Use streaming to progressively render UI components as data becomes available.
+
+
+4. Implement middleware: Create a middleware function to handle authentication or other request modifications.
+
+
+5. Use route segments config options: Experiment with different segment config options like dynamic, revalidate, and fetchCache.
+
+
+6. Create a custom not-found page: Implement a custom 404 page for your application.
+
+
+7. Use client-side navigation: Implement client-side navigation using the useRouter hook from next/navigation.
+
+
+8. Optimize images: Use the Next.js Image component to automatically optimize images in your application.
+
+
+9. Implement internationalization (i18n): Set up a basic internationalization system using route groups or subdomain routing.
+
+
+10. Use Next.js font optimization: Implement custom font loading using the built-in font optimization features.
+
