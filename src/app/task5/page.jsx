@@ -9,6 +9,7 @@ const page = () => {
     src={'/images/vercel.svg'}
     height={100}
     width={500}
+    alt="vercel"
     />
     
     
