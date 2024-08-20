@@ -1,4 +1,4 @@
-import product from "@/services/product"
+import product from "../../../services/product"
 
 
 const page = async ({ params }) => {

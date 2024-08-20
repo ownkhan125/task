@@ -1,8 +1,8 @@
 'use client'
 
-import {  useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import product from '@/services/product';
+import product from '../../services/product';
 import style from '@/style/blog.module.css';
 
 
@@ -69,17 +69,17 @@ const page = () => {
                         </div>
                         <div className=' max-h-[600px] overflow-auto pe-4'>
                             <div>
-                                    {
-                                        data.map((item, index) => (
-                                            <div key={index} className='cursor-pointer border-b-2 border-[#dbe4ed;] py-4 flex flex-col gap-y-2 justify-between' onClick={() => handle(item.id)}>
-                                                <p className='text-sm font-semibold underline underline-offset-1'>{item.title}</p>
-                                                <div className='flex justify-between'>
-                                                    <span className='text-sm font-light'>{item.price}</span>
-                                                    <span className='text-sm font-light'>{item.rating.count}</span>
-                                                </div>
+                                {
+                                    data.map((item, index) => (
+                                        <div key={index} className='cursor-pointer border-b-2 border-[#dbe4ed;] py-4 flex flex-col gap-y-2 justify-between' onClick={() => handle(item.id)}>
+                                            <p className='text-sm font-semibold underline underline-offset-1'>{item.title}</p>
+                                            <div className='flex justify-between'>
+                                                <span className='text-sm font-light'>{item.price}</span>
+                                                <span className='text-sm font-light'>{item.rating.count}</span>
                                             </div>
-                                        ))
-                                    }
+                                        </div>
+                                    ))
+                                }
                             </div>
                         </div>
                     </div>
